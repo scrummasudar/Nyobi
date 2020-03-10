@@ -9,8 +9,8 @@ const tweetDivided = document.getElementById('tweet-area');
  * @param {HTMLElement} element HTMLの要素
  */
 function removeAllChildren(element) {
-    while (resultDivided.firstChild) {
-        resultDivided.removeChild(resultDivided.firstChild);
+    while (element.firstChild) {
+        element.removeChild(element.firstChild);
     }
 }
 
